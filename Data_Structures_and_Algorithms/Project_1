@@ -1,1 +1,33 @@
+Project 1
+[22,27,16,2,18,6] -> Insertion Sort
 
+Q1.Write the stages of the above sequence according to the sort type.
+
+Step 1 > [22,27,16,2,18,6]
+Step 2 > [2,16,22,27,18,6]
+Step 3 > [2,16,18,22,27,6]
+Step 4 > [2,6,16,18,27,22]
+
+Q2.Write the Big-O notation.
+
+n + (n-1) + (n-2) + 1 = n2+n/2  
+O(n²)
+
+Q3.Time Complexity: 
+Average case: The number we are looking for is in the middle,
+Worst case: The number we are looking for is at the end, 
+Best case: The number we are looking for is at the beginning of the series.
+
+Average case: 16 & 18  - O(n²) 
+Worst case: 27 - O(n²)
+Best case: 2 - O(n)
+
+Q4.What case does the number 18 fall into after the array is sorted?
+Average case
+
+
+Q5.Write the first 4 steps of [7,3,5,8,2,9,4,15,6] according to Insertion Sort.
+Step 1 > [7,3,5,8,2,9,4,15,6] 
+Step 2 > [2,3,5,8,7,9,4,15,6] 
+Step 3 > [2,3,4,8,7,9,5,15,6]
+Step 4 > [2,3,4,5,7,9,8,15,6]
