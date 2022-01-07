@@ -13,7 +13,7 @@ Q2.Write the Big-O notation.
 n + (n-1) + (n-2) + 1 = n2+n/2  
 O(n²)
 
-##Q3.Time Complexity: 
+Q3.Time Complexity: 
 Average case: The number we are looking for is in the middle,
 Worst case: The number we are looking for is at the end, 
 Best case: The number we are looking for is at the beginning of the series.
