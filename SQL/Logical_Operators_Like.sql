@@ -1,3 +1,4 @@
+-- Homework 3
 -- 1.Query country names in the country column of the country table, starting with 'A'  and ending with 'a'.
 select country from country
 where country like 'A%a';
